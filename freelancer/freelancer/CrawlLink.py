@@ -7,7 +7,7 @@ input_page = input('How many pages do you want to collect: ')
 
 class getLink():
     #--------- 1. Mở trang web và click vào tắt chế độ online
-    driver = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\chromedriver (Ver 111 - Check Update)\chromedriver.exe")
+    driver = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\Data_analyst_BC_TTTN\freelancer\freelancer\chromedriver.exe")
     url = 'https://www.freelancer.com/freelancers/skills/autodesk-revit-revit-revit-architecture'
     driver.get(url)
 

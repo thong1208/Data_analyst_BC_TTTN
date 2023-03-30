@@ -3,7 +3,7 @@ from time import sleep
 from scrapy_selenium import SeleniumRequest
 
 #Đọc file (LinkProfile.txt) để crawl những link trong đó
-with open('D:\Documents\Ty\THE BIM FACTORY 4.7.2022\EventsEye.txt', 'r') as f:
+with open('EventsEye.txt', 'r') as f:
     link_list = f.readlines()
     print ('---------- TOTAL LINK: ' + str(len(link_list)) + ' link')
     

@@ -33,7 +33,7 @@ URL_LINK        = 'url_link'
 '''
 
 #--------- 1. Mở trang web
-driver = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\chromedriver (Ver 111 - Check Update)\chromedriver.exe") #Version 111
+driver = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\Data_analyst_BC_TTTN\Failory\crawler\crawler\spiders\chromedriver.exe") #Version 111
 url = 'https://www.failory.com/interviews'
 driver.get(url)
 sleep (1)

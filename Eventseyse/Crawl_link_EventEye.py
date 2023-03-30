@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 f = open('EventsEye.txt', 'w', encoding='UTF-8')
 
 #--------- 1. Mở trang web
-driver  = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\chromedriver (Ver 111 - Check Update)\chromedriver.exe") #Version 111
+driver  = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\Data_analyst_BC_TTTN\Eventseyse\chromedriver.exe") #Version 111
 url     = 'https://www.eventseye.com/fairs/dt1_trade-shows_building-construction-architecture_january_1.html'
 driver.get(url)
 driver.execute_script("window.scrollTo(0, {});".format(5000))

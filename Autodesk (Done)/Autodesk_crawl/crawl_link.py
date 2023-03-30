@@ -7,7 +7,7 @@ input_page = input('How many pages do you want to collect: ')
 inputpage =  int(input_page) + 1
 class getLink():
     #--------- 1. Mở trang web
-    driver = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\chromedriver (Ver 111 - Check Update)\chromedriver.exe")
+    driver = webdriver.Chrome("D:\Documents\Ty\THE BIM FACTORY 4.7.2022\Code\Python\Data_analyst_BC_TTTN\Autodesk (Done)\Autodesk_crawl\chromedriver.exe")
     url = 'https://apps.autodesk.com/RVT/en/List/Search?&page=1'
     driver.get(url)
 
